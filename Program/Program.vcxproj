@@ -127,14 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Computer.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Marine.cpp" />
-    <ClCompile Include="Phone.cpp" />
+    <ClCompile Include="Mouse.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Computer.h" />
+    <ClInclude Include="Keyboard.h" />
     <ClInclude Include="Marine.h" />
-    <ClInclude Include="Phone.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

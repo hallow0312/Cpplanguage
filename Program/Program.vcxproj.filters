@@ -18,24 +18,36 @@
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Phone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Unit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Marine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Phone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Unit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Marine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
