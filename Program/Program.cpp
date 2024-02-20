@@ -1,75 +1,104 @@
 ﻿#include <iostream>
-#include <stdarg.h>
-#include "Marine.h"
-#include "Computer.h"
+#include"Goliath.h"
+#include"SiegeTank.h"
+#include"Vulture.h"
 using namespace std;
 
-
-
-void Debug(int count,...) //count 수만큼 매개변수가 들어감. +)count가 몇인지 모르기에 '...' 사용
-{	// va_list: 가변 인자 목록으로 가변인자의 메모리 주소를 저장하는 포인터.
-				
-	//va_start: 가변 인자의 시작 주소를 가져오는 변수
-
-	//va_arg: 가변 인자 포인터에서 특정 자료형의 크기만큼 값을 꺼내고 이동하는 변수이고,
-	//		  값을 반환하는 변수.
-	
-	// va_end: 가변 인자 처리가 끝났을 때 포인터를 NULL 로 초기화 하는 변수.
- 				
-
+void Circulator(char x, char y)
+{
+	cout << "char Function :" << (char)(x+y)<< endl;
+}
+void Circulator(int x ,int y)
+{
+	cout << "int Function :" << x + y << endl;
 
 }
 
+void Circulator(float x, float y)
+{
+	cout << "float Function :" << x + y << endl;
 
+}
+void Circulator(float x, float y,float z)
+{
+	cout << "float Function :" << x + y + z << endl; 
 
+}
 
 
 
 int main()
 {
-#pragma region 상속
-	// 상위 클래스의 속성을 하위 클래스가 사용할 수 있도록
-	// 설정해주는 기능.
+#pragma region 다형성
+	// 여러 개의 서로 다른 객체가 동일한 기능을 
+	// 서로 다른 방법으로 처리할 수 있는 기법.
+
+	// 다형성은 컴파일 시점에서 함수와 속성이 결정되는 
+	// 정적 바인딩을 하지 않고 , 실행 시간에 함수와 
+	// 속성이 결정될 수 있는 동적 바인딩을 가능하게 함 .
+
+
+#pragma endregion
+
+#pragma region 함수의 오버로딩
+	
+	// 같은 이름의 함수를 매개 변수의 자료형과 매개 변수의 수로 
+	// 구분하여 여러 개를 선언할 수 있는 기능.
 	/*
-	Unit unit;
+	Circulator('!','B');
 
-	cout << "unit 오브젝트의 크기 : " << sizeof(unit) << endl<<endl;
+	Circulator(10, 20);
 
-	Marine marine;
+	Circulator(10.5f, 20.5f);
 
-	cout << "marine 오브젝트의 크기 : " << sizeof(marine) << endl;
+	Circulator(10.5f, 20.5f, 30.5f);
 	*/
-
-	// 클래스의 상속 관계에서 상위 클래스는 하위 클래스의 속성을 
-	// 사용할 수 없으며, 하위 클래스는 상위 클래스의 메모리를 포함한 상태로
-	// 메모리의 크기가 결정됨.
-
-
+	
+	// 함수의 오버로딩의 경우 함수의 매개 변수에 전달하는 
+	// 인수의 형태를 보고 호출 하므로 , 반환형으로 함수의 
+	// 오버로딩은 생성할 수 없음.
 
 
-#pragma endregion
-
-#pragma region 다중 상속
-	// 하나의 하위 클래스가 여러개의 상위 클래스를
-	// 상속 받는것.
-
-	//Computer computer;
-	//computer.Use();
-
-	// 다중 상속은 여러개의 상위 클래스에 중복되는 속성이
-	// 존재 할 수 있기 때문에 범위 지정연산자를 통해 
-	// 상위 클래스의 이름을 선언하고 속성을 사용해야함.
 
 #pragma endregion
 
-#pragma region 가변 길이 매개변수
+#pragma region 함수의 오버라이딩
+
+	// 상위 클래스에 있는 함수를 하위 클래스에서 재정의하여 
+	// 사용하는 기능.
+
+	SiegeTank siegeTank;
+	Vulture vulture;
+	Goliath goliath;
 	
 
-#pragma endregion
+	siegeTank.Move(); 
+	vulture.Move(); 
+	goliath.Move();
 
+	// 함수의 오버라이드는 상속 관계에서만 이루어지며, 하위 
+	// 클래스에서 함수를 재정의 할 때 상위 클래스의 함수 
+	// 형태와 일치해야 함.
+
+#pragma endregion
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
 
 
 

@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class5th(Default parameter)
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class6th(Encapsulation)", "..\class6th(Encapsulation)\class6th(Encapsulation).vcxproj", "{FF8A0815-8546-4AF4-9912-DB3FEF5D301B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class7th(inheritance)", "..\class7th(inheritance)\class7th(inheritance).vcxproj", "{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{FF8A0815-8546-4AF4-9912-DB3FEF5D301B}.Release|x64.Build.0 = Release|x64
 		{FF8A0815-8546-4AF4-9912-DB3FEF5D301B}.Release|x86.ActiveCfg = Release|Win32
 		{FF8A0815-8546-4AF4-9912-DB3FEF5D301B}.Release|x86.Build.0 = Release|Win32
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Debug|x64.ActiveCfg = Debug|x64
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Debug|x64.Build.0 = Debug|x64
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Debug|x86.Build.0 = Debug|Win32
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Release|x64.ActiveCfg = Release|x64
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Release|x64.Build.0 = Release|x64
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Release|x86.ActiveCfg = Release|Win32
+		{A5D8AA5E-EB02-4A2D-83D0-6AD0E5B7B8EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
