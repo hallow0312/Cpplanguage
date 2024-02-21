@@ -6,7 +6,7 @@ class Goliath:public Mechanic
 public:
 	Goliath();
 	
-	void Move();
+	void Move() override;
 	
 	~Goliath();
 	

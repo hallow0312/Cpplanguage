@@ -5,7 +5,7 @@ class SiegeTank:public Mechanic
 {public:
 	SiegeTank();
 	
-	void Move();
+	void Move() override;
 	
 	~SiegeTank();
 	

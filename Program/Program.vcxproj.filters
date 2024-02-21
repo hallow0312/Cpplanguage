@@ -18,13 +18,13 @@
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mechanic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Vulture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SiegeTank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mechanic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Goliath.cpp">
@@ -32,13 +32,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Mechanic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Vulture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SiegeTank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mechanic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Goliath.h">
