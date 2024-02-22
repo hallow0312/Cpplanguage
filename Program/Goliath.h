@@ -8,7 +8,7 @@ public:
 	
 	void Move() override;
 	
-	~Goliath();
+	virtual ~Goliath();
 	
 };
 
