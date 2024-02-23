@@ -2,10 +2,10 @@
 
 void Hydra::Recovery()
 {
-	this->maxHP = 80;
-	cout << "Hydra 체력회복 " << endl;
+	maxHP = 80;
+	cout << "Hydra 체력 회복 " << endl;
 
-	this->health = this->maxHP;
+	health = maxHP;
 }
 
 void Hydra::SetHP(int health)
@@ -15,6 +15,17 @@ void Hydra::SetHP(int health)
 
 int Hydra::GetHP()
 {
-	cout << "Hydra의 체력 : " << this->health << endl;
-	return 0;
+	cout << "Hydra의 체력 : " << health << endl;
+	return health;
 }
+
+Hydra::Hydra()
+{
+	cout << "Create Hydra" << endl;
+}
+
+Hydra::~Hydra()
+{
+	cout << "Release Hydra" << endl;
+}
+

@@ -13,5 +13,15 @@ void Zerg ::SetHP(int health)
 int Zerg::GetHP()
 {
 	cout << this->health << endl;
-	return 0;
+	return health;
+}
+
+Zerg::Zerg()
+{
+	cout << "Create Zerg" << endl;
+}
+
+Zerg::~Zerg()
+{
+	cout << "Release Zerg" << endl;
 }

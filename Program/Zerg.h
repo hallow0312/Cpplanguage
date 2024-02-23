@@ -9,5 +9,9 @@ public:
 	virtual void Recovery();
 	virtual void SetHP(int health);
 	virtual int GetHP();
+
+	Zerg();
+	virtual ~Zerg();
+	
 };
 

@@ -6,5 +6,9 @@ public:
 	virtual void Recovery() override;
 	virtual void SetHP(int health) override;
 	virtual int GetHP() override;
+
+	 Juggling();
+	virtual ~Juggling();
+
 };
 

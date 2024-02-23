@@ -127,19 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Beacon.cpp" />
-    <ClCompile Include="Hydra.cpp" />
-    <ClCompile Include="Juggling.cpp" />
-    <ClCompile Include="Lurker.cpp" />
     <ClCompile Include="Program.cpp" />
-    <ClCompile Include="Zerg.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Beacon.h" />
-    <ClInclude Include="Hydra.h" />
-    <ClInclude Include="Juggling.h" />
-    <ClInclude Include="Lurker.h" />
-    <ClInclude Include="Zerg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,9 +2,9 @@
 
 void Juggling::Recovery()
 {
-	this->maxHP= 35;
+	maxHP= 35;
 	cout << "Juggling 체력회복 " << endl;
-	this->health = maxHP;
+	health = maxHP;
 }
 
 void Juggling::SetHP(int health)
@@ -14,6 +14,16 @@ void Juggling::SetHP(int health)
 
 int Juggling::GetHP()
 {
-	cout << "Juggling의 체력 : " << this->health << endl;
+	cout << "Juggling의 체력 : " << health << endl;
 	return health;
+}
+
+Juggling::Juggling()
+{
+	cout << "Create Juggling " << endl;
+}
+
+Juggling::~Juggling()
+{
+	cout << "Release Juggling" << endl;
 }
