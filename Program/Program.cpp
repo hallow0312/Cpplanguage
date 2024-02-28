@@ -6,9 +6,9 @@ int main()
 {
 
 
-	int data = 50;
+	int data = 39;
 	
-	int count = 99;
+	int count = 1;
 
 
 
