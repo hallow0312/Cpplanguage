@@ -7,7 +7,8 @@ int main()
 
 
 	int data = 10;
-
+	
+	int count = 5;
 
 
 
