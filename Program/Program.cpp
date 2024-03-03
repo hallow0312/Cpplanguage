@@ -5,39 +5,121 @@
 #include<windows.h>
 using namespace std;
 
+
+
 #define UP 72
 #define LEFT 75
 #define RIGHT 77
 #define DOWN 80
 
-
-void Keyboard()
+void GotoXY(int x, int y)
 {
-	char c;
-	if (_kbhit())
-	{
-		c = _getch();
-		if (c == -32) {
-			c = _getch();
-			switch (c) {
-			case LEFT:
-				cout << "←";
+	// x , y 좌표 설정
+	COORD position = { x,y };
 
-				break;
-			case RIGHT:
-				cout << "→";
-				break;
-			case UP:
-				cout << "↑";
-				break;
-			case DOWN:
-				cout << "↓";
-				break;
-			}
+	// 커서 이동 함수 
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
+
+}
+void textcolor(int colorNum) 
+{
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);
+}
+
+
+void SetQuestion(vector<int>& questionV)
+{
+	questionV.clear();
+	for (int i = 0; i < 5; i++)
+	{
+		
+		int num = rand() % 4;
+		switch (num)
+		{
+		case 0:questionV.push_back(UP);
+			
+			break;
+
+		case 1:questionV.push_back(LEFT);
+		
+			break;
+
+		case 2:questionV.push_back(DOWN);
+		
+
+			break;
+		case 3:questionV.push_back(RIGHT);
+			
+
+			break;
+
 		}
 	}
+	
+	
+	for (int i = 0; i < questionV.size(); i++)
+	{
+		switch (questionV[i])
+		{
+		case UP: cout << "↑"<<" ";
+			break;
+		case DOWN: cout << "↓"<<" ";
+			break;
+		case LEFT: cout << "←"<<" ";
+			break;
+		case RIGHT: cout << "→"<<" ";
+			break;
+		}
+	}
+	
+}
+void MakeAnswer(vector <int> *QuestionV,vector <int> *AnswerV) 
+{
+	char key;
+	AnswerV->clear();
+	for (int i = 0; i < QuestionV->size(); i++)
+	{
+		key = _getch();
+		if (_kbhit())
+		{
+			
+			if (key == -32)
+			{
+				key = _getch();
+				AnswerV->push_back(key);
+				switch (key)
+				{
+				case LEFT:
+					cout << "←" << " ";
+					
+					break;
+				case RIGHT:
+					cout << "→" << " ";
+					
+					break;
+				case UP:
+					cout << "↑" << " ";
+
+
+					break;
+				case DOWN:
+					cout << "↓" << " ";
+					
+
+					break;
+				}
+			}
+
+		}
+	}
+	
+	
 		
 }
+				
+
+
+
 
 
 int main()
@@ -92,41 +174,65 @@ int main()
 
 #pragma region Rythm Game
 	srand((unsigned)time(NULL));
-	int num;
-	int count;
-	std::vector<const char*> vector;
 	
-	while (1)
-	{	num=rand() % 4;
-		if (num == 0)
+	int Life;
+	
+	std::vector<int> questionV;
+	std::vector<int> AnswerV;
+	Life = 5;
+	while (Life)
+	{
+		GotoXY(0, 0);
+		textcolor(4);
+		for (int i = 0; i < Life; i++)
 		{
-			vector.push_back("↑");
+			cout << "♥"<<" ";
+		}
+		textcolor(15);
+
+		GotoXY(0, 1); 
+		int Answercount = 0;
+		SetQuestion(questionV);
+		cout << endl;
+		
+		MakeAnswer(&questionV, &AnswerV);
+
+		for (int i = 0; i < questionV.size(); i++)
+		{
+			if (questionV[i] == AnswerV[i])
+			{
+				Answercount += 1;
+			}
 			
 		}
-		else if (num == 1)
+		if (Answercount == questionV.size())
 		{
-			vector.push_back("←");
-
+			system("cls");
 		}
-		else if (num == 2)
+		else if (Answercount != questionV.size())
 		{
-			vector.push_back("↓");
-
+			system("cls");
+			Life--;
 		}
-		else if (num == 3)
-		{
-			vector.push_back("→");
-		}
-		
 
-		Keyboard();
 
+	}
+
+	if (Life <= 0)
+	{
+		GotoXY(3, 3);
+		cout << "YOU LOSE";
+		cout << endl;
+		cout << endl;
+		cout << endl;
+	}
 
 				
 	
 		
 
 
+	
 		
 
 		
@@ -137,7 +243,6 @@ int main()
 
 
 
-	}
 
 	
 	
