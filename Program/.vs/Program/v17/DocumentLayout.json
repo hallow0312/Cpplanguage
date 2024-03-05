@@ -7,19 +7,13 @@
       "RelativeMoniker": "D:0:0:{CAB20C73-6D67-4C47-A3D8-F0D2DD79E8A2}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{326ACBBD-9701-4140-97BA-FEF1770E6DDB}|..\\class15th(LinearContainer)\\class15th(LinearContainer).vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class15th(LinearContainer)\\Source15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ACD52EC6-3578-48E4-8FE4-EA41E2023F5F}|..\\class17th(AssociatdContainer\\class17th(AssociatdContainer.vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class17th(AssociatdContainer\\Source17.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47435852-A857-4AAF-9846-074BAF048B25}|..\\class14th(virtualinheritance)\\class14th(virtualinheritance).vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class14th(virtualinheritance)\\Source14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFB2C1F9-4805-4752-AC08-DB9FDDBEAB7F}|..\\class13th(Template)\\class13th(Template).vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class13th(Template)\\Source13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1EABF930-ECCD-435F-AD87-E80215C95AF7}|..\\class16th(containeradapter)\\class16th(containeradapter).vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class16th(containeradapter)\\Source16.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81D89992-796A-46E4-94F7-1DD96181BE55}|..\\class11th(PureVirtualFuncition)\\class11th(PureVirtualFuncition).vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class11th(PureVirtualFuncition)\\Source11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A26E71FD-3AB6-49FC-9F42-5E5639054449}|..\\class12th(smartpointer)\\class12th(smartpointer).vcxproj|C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class12th(smartpointer)\\Source12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,14 +72,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Source15.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class15th(LinearContainer)\\Source15.cpp",
-              "RelativeDocumentMoniker": "..\\class15th(LinearContainer)\\Source15.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class15th(LinearContainer)\\Source15.cpp",
-              "RelativeToolTip": "..\\class15th(LinearContainer)\\Source15.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4BAAAAAAAA",
+              "Title": "Source17.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class17th(AssociatdContainer\\Source17.cpp",
+              "RelativeDocumentMoniker": "..\\class17th(AssociatdContainer\\Source17.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class17th(AssociatdContainer\\Source17.cpp",
+              "RelativeToolTip": "..\\class17th(AssociatdContainer\\Source17.cpp",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-04T12:04:03.942Z",
+              "WhenOpened": "2024-03-05T12:37:13.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source16.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class16th(containeradapter)\\Source16.cpp",
+              "RelativeDocumentMoniker": "..\\class16th(containeradapter)\\Source16.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class16th(containeradapter)\\Source16.cpp",
+              "RelativeToolTip": "..\\class16th(containeradapter)\\Source16.cpp",
+              "ViewState": "AQIAADsAAAAAAAAAAAAmwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-05T11:03:46.263Z",
               "EditorCaption": ""
             },
             {
@@ -96,50 +103,14 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-04T10:48:39.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source14.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class14th(virtualinheritance)\\Source14.cpp",
-              "RelativeDocumentMoniker": "..\\class14th(virtualinheritance)\\Source14.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class14th(virtualinheritance)\\Source14.cpp",
-              "RelativeToolTip": "..\\class14th(virtualinheritance)\\Source14.cpp",
-              "ViewState": "AQIAABYAAAAAAAAAAAAswFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-04T10:48:39.579Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Source13.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class13th(Template)\\Source13.cpp",
-              "RelativeDocumentMoniker": "..\\class13th(Template)\\Source13.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class13th(Template)\\Source13.cpp",
-              "RelativeToolTip": "..\\class13th(Template)\\Source13.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-04T10:48:39.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Source12.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class12th(smartpointer)\\Source12.cpp",
-              "RelativeDocumentMoniker": "..\\class12th(smartpointer)\\Source12.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class12th(smartpointer)\\Source12.cpp",
-              "RelativeToolTip": "..\\class12th(smartpointer)\\Source12.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-04T10:48:39.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Source11.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC774\uC7AC\uD604\\Cpplanguage\\class11th(PureVirtualFuncition)\\Source11.cpp",
               "RelativeDocumentMoniker": "..\\class11th(PureVirtualFuncition)\\Source11.cpp",
